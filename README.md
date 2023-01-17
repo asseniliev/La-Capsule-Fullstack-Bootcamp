@@ -1,7 +1,7 @@
 # La-Capsule-Fullstack-Bootcamp
 Solutions of the exercises passed during the Webdev fullstack training in La Capsule
 
-10-Jan-2023 -----> EVENTS
+**10-Jan-2023 -----> EVENTS**
 1. Capture an evenet:
 There are five bullets on the web page listing ingredients of a recepts (created with 'li' elements).
 The task is to add an event listener on the element with id = 2 and change its text on mouse click.
@@ -35,9 +35,9 @@ console.log(checkDifferences([
 ]));
 **// Expected: true,true,false,false**
 
-=========================================================================================================
-17-Jan-2023 -----> EXPRESS FRAMEWORK   
-=========================================================================================================
+
+**17-Jan-2023 -----> EXPRESS FRAMEWORK**   
+
 1. Orient Express
 The challenge is to create webservice in javascript. An array containing trip objects is pre-defined.
 I have to define routes to retrieve and manage the data in this array:
