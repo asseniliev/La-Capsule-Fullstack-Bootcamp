@@ -42,6 +42,19 @@ positions of the player.
 ![Super Mario](./_ScreenShots/MarioDom.jpg) 
 
 ===
+**11-JAN-2023 -----> WEB SERVICES**
+1. Discover [JSONPlaceholder](https://jsonplaceholder.typicode.com/) service. Study documentation
+and create a script that fetches user with Id = 5. Then feed the name, the email and the 
+phone details to the DOM.
+
+2. Discover the web service [PokeAPI](https://pokeapi.co/). A pre-styled web page is available that
+initkally contains one pokemon card. Two tasks:
+ - at the inital load of the web page, the first 15 pokemons must be retrieved by the web service and 
+ visualized in the dom.
+ - when pressing the 'Next' button, the next 15 pokemons must be retrieved and visualized.
+ ![Pokedex](./_ScreenShots/Pokedex.jpg)
+
+===
 **17-JAN-2023 -----> EXPRESS FRAMEWORK**   
 
 1. Orient Express

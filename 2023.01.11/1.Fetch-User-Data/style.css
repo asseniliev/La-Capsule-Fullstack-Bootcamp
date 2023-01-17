@@ -1,0 +1,19 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#title {
+  font-size: 18px;
+}
+
+#img {
+  width: 20vw;
+}
+
+#explanation {
+  text-align: center;
+  width: 70vw;
+}
