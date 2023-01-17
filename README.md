@@ -28,6 +28,19 @@ A function must be created that will receive this array as parameter and for eac
 must check if the elements inside are identical or not. If identical - value 'true' must be added to an output array,
 if not identical - value 'false' must be added. The expected result is provided in the condition of the task.
 
+5. Cookies
+Four cookies are displayed on the screen. If we press on a cookie, its image must be replaced by the image of a bitten cookie. Pressed once again - it should be removed from the screen.
+![Cookies](./_ScreenShots/Cookies.jpg);
+
+6. Super Mario DOM
+The task is to move Mario figure on the screen using the arrow keys.
+There are 4 images of Mario for the 4 directions and they must match
+the direction of the movement. 
+The solution uses 'keydown' event, offsetLeft and offsetTop to take the player's current
+position and then - player.style.top and player.style.left to set the vertical and the horizontal
+positions of the player.
+![Super Mario](./_ScreenShots/MarioDom.jpg) 
+
 ===
 **17-JAN-2023 -----> EXPRESS FRAMEWORK**   
 
