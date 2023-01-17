@@ -1,7 +1,8 @@
 # La-Capsule-Fullstack-Bootcamp
 Solutions of the exercises passed during the Webdev fullstack training in La Capsule
 
-**10-Jan-2023 -----> EVENTS**
+===
+**10-JAN-2023 -----> EVENTS**
 1. Capture an evenet:
 There are five bullets on the web page listing ingredients of a recepts (created with 'li' elements).
 The task is to add an event listener on the element with id = 2 and change its text on mouse click.
@@ -27,16 +28,8 @@ A function must be created that will receive this array as parameter and for eac
 must check if the elements inside are identical or not. If identical - value 'true' must be added to an output array,
 if not identical - value 'false' must be added. The expected result is provided in the condition of the task.
 
-console.log(checkDifferences([
-    [true, true, true, true],
-    ['test', 'test', 'test'],
-    [1, 1, 1, 2],
-    ['10', 10, 10, 10]
-]));
-**// Expected: true,true,false,false**
-
-
-**17-Jan-2023 -----> EXPRESS FRAMEWORK**   
+===
+**17-JAN-2023 -----> EXPRESS FRAMEWORK**   
 
 1. Orient Express
 The challenge is to create webservice in javascript. An array containing trip objects is pre-defined.
