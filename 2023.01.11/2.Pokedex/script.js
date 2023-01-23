@@ -6,7 +6,7 @@ let currentPokemonNumber = 0;
 document.querySelector('#next').addEventListener('click', () => {add15Pokemons()});
 
 add15Pokemons();
-
+x
 
 function add15Pokemons(){
   for(let i = 1; i <= 15; i++){

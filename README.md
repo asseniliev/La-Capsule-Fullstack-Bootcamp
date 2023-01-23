@@ -54,16 +54,22 @@ initkally contains one pokemon card. Two tasks:
  - when pressing the 'Next' button, the next 15 pokemons must be retrieved and visualized.
  ![Pokedex](./_ScreenShots/Pokedex.jpg)
 
+ ===
+**12-JAN-2023 -----> MONGODB & MONGOOSE**
+1. Play with Mongo DB via Atlas & Compass
+
 ===
 **17-JAN-2023 -----> EXPRESS FRAMEWORK**   
 
 1. Orient Express
 The challenge is to create webservice in javascript. An array containing trip objects is pre-defined.
-I have to define routes to retrieve and manage the data in this array:
+I have to define web routes to retrieve and manage the data in this array:
 POST /trips : add a new trip
 GET /trips : retrieve all the trips
 GET /lastTrip : retrieve the last trip in the array
 DELETE /trips : delete all the trips
+
+All web route functions manipulate the array defined in the beginning of the script. There is no communication with a DB.
 
 2. Weather App - Part 1
 The task is to create a webservice that manages weather data. The data are presented in an array of objects with fields about
@@ -83,3 +89,41 @@ a middleware in app.js file that verifies the key provided in the headers and
 either confirm or deny access. The result must be as indicated in the pic.
 
 ![API Key Validation](./_ScreenShots/API_Key.jpg)
+
+===
+**18-JAN-2023 -----> THIRD PARTY SERVICES**   
+1. Orient Express 2
+It is continuation of the Orient Express challenge from 17-Jan. A Mongo DB must be created containing the routes. The challenge now is to create a model for the trip and then modify the routes in the index.js file in order to maniputlate the database:
+POST /trips : add a new trip to the DB
+GET /trips : retrieve all the trips from the DB
+GET /lastTrip : retrieve the last trip in the DB
+DELETE /trips : delete all the trips from the DB
+
+===
+**19-JAN-2023 -----> MVC & MODULES ES5**
+1. Clear Your Room challenge
+Index.js located in the 'routes' folder contains routes for home, admin and moderator. The task is to reorganize the code
+by creating 'admin.js' and 'moderator.js' files containing the routes for the two families and then customize the routes' prefixes
+in app.js by exporting/importing technic. Then, a file 'checkPasswords.js' must be created containing two functions for checking
+admin's and moderator's passwords. These functions must be exported from 'checkPasswords.js' and then imported in the corresponding family's js file.  
+
+2. Weather App - Part 3
+This is continuation of the Weather App started on 17-Jan. The task is to apply the MVC approach by
+creating backend and frontend folders, then customizing the families of routes with individual files per family,
+create models for weather database and db connection functionality and finally workout the backend routes to 
+communicate with the db.
+Using the frontend functionality is then updating the Mongo db accordingly
+![Weatheer+DB+Update](./_ScreenShots/weatherapp-3.jpg)
+
+3. Algorithm exercise:
+Develop a function that is merging two arrays by removing duplicates and sorting the entries in alphabetical order.
+
+4. Simulate [Wordle](https://www.nytimes.com/games/wordle/index.html) game.
+
+===
+**23-JAN-2023 -----> TDD (Test Driven Development) & Clean Code**
+1. MyPharmacy challenge:
+pharmacy.test.js script is provided containing test of three functions. The task is to develop these functions to match the requirement assumed in the test script (TDD approach is hence applied).
+
+2. Play with dates: 4 exercises designated to use Date object and its basic methods.
+
