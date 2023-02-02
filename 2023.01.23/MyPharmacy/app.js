@@ -12,8 +12,7 @@ function getDrugTypeByName(name){
 }
 
 function getDrugNamesByGroup(group){
-  return filtered = data.filter(med => med.groups
-                        .some(gr => gr === group))
+  return filtered = data.filter(med => med.groups.some(gr => gr === group))
                         .map(med => med.name)
                         .sort();
 }

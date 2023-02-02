@@ -127,3 +127,6 @@ pharmacy.test.js script is provided containing test of three functions. The task
 
 2. Play with dates: 4 exercises designated to use Date object and its basic methods.
 
+3. Manage your stock: a challenge aiming to develop, using a TDD approach, from A to Z a backend for managing a stock of products.
+The challenge provides file 'data.js' containing an array of product objects. Five routes then must be developped to return filtered
+data depening on the route's parameter. These functions must then be covered by the tests.
