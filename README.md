@@ -122,11 +122,28 @@ Develop a function that is merging two arrays by removing duplicates and sorting
 
 ===
 **23-JAN-2023 -----> TDD (Test Driven Development) & Clean Code**
-1. MyPharmacy challenge:
+1. 'MyPharmacy' challenge:
 pharmacy.test.js script is provided containing test of three functions. The task is to develop these functions to match the requirement assumed in the test script (TDD approach is hence applied).
 
-2. Play with dates: 4 exercises designated to use Date object and its basic methods.
+2. 'The dates': 4 exercises designated to use Date object and its basic methods.
 
-3. Manage your stock: a challenge aiming to develop, using a TDD approach, from A to Z a backend for managing a stock of products.
+3. 'Stock Manager' challenge: aiming to develop, using a TDD approach, from A to Z a backend for managing a stock of products.
 The challenge provides file 'data.js' containing an array of product objects. Five routes then must be developped to return filtered
 data depening on the route's parameter. These functions must then be covered by the tests.
+
+4. 'Clean my code' challenge: 5 functions with implemented code are provided. The tasks is to optimize the code using the good practices for clean code.
+
+===
+**03-FEB-2023 -----> REDUX**
+1. 'Count with me and Redux' challenge: practice basic Rudex functionality by creating a reducer that enables counter's increment and decrement managed by two dedicated buttons.
+
+2. 'Morning News (Part 2)' project: continuation of the part 1 started 02-Feb. Tasks covered in this iteration: 
+   - Initiate Redux store to manage bookmars with news
+   - Clicking on article's bookmark icon must feed the list of favorites and enable their display in the 'Bookmarks' link
+   - A second click on the bookmark icon must remove the article from the list of favorites
+   - Adding and removing bookmarks must be possible both from the Articles page and from the Bookmarks page
+
+[Navigation](https://lh3.googleusercontent.com/HlHQ1lP-khl-ORQAM_qDFQ41Yuv_3GEe2i0R7rgfYlhaUmdh11daAMVElPpUVxM_41mhVRYkzt6CZVZ6KhnPXl4xtxqVpA5pJZKNgQgNVoTDacUCDgXXuuaHEXmjq9OckN7IMJKwH8SRUBxvepKGFUzgWH7lLwSqnBbsAENqNoJ4DRsZXTYBEOA)
+
+3. 'Turn on the light' challenge: use Redux to store status of the 'light' on the screen that may be 'switched on/off' using a button.
+![Example](https://lh3.googleusercontent.com/ZfAhgW9WJYakGxlktYKNlx8kQ0zhe5t955GNuzHq_9zxt25pLyK5UGQ5Af9alfoPvVFS8uV-A4j9RS2KKVJsunWqa3PqfPhAqf1Ubt8Dv2m9N0JBR4M05F5DAOjfLZ_p1UFYgFTWxYPj8L2bMrNjP0bgDAeKpHU5paycV-2ugO6FqWF3_0xuo04)
