@@ -1,0 +1,19 @@
+h2 {
+  height: 50px;
+}
+
+#title-hits {
+  background-color: #B52644;
+}
+
+#title-mood {
+  background-color: #51A68F;
+}
+
+.music-hits {
+  color: #E85E5F;
+}
+
+.music-mood {
+  color: #69BCC8;
+}

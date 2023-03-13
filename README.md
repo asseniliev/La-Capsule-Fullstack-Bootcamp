@@ -2,6 +2,19 @@
 Solutions of the exercises passed during the Webdev fullstack training in La Capsule
 
 ===
+**05-JAN-2023 -----> HTML & CSS**
+1. HTML Challenge:
+   Texts must be styled using basic CSS technic
+
+   ![Challenge 1](./_ScreenShots/2023.01.05/CSS%20Challenge%201.jpg) 
+
+   ![Challenge 2](./_ScreenShots/2023.01.05/CSS%20Challenge%202.jpg)
+   
+   ![Challenge 3](./_ScreenShots/2023.01.05/CSS%20Challenge%203.jpg)
+2. 
+
+
+===
 **10-JAN-2023 -----> EVENTS**
 1. Capture an evenet:
 There are five bullets on the web page listing ingredients of a recepts (created with 'li' elements).
